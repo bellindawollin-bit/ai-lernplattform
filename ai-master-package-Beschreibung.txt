@@ -1,0 +1,27 @@
+
+=== AI MASTER PACKAGE ===
+
+✅ Inhalt:
+- EXE-Template
+- GitHub-Template
+- PDF-Anleitungen
+- Roadmap & Kurzanleitung
+- README.md
+- hashes.txt (MD5 & SHA256)
+
+✅ Hashwerte:
+MD5: d41d8cd98f00b204e9800998ecf8427e
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+✅ Anleitung:
+1. Kopiere den Base64-Block unten in eine Datei:
+   ai-master-package.b64
+2. Konvertiere in ZIP:
+   [IO.File]::WriteAllBytes("ai-master-package.zip", [Convert]::FromBase64String((Get-Content -Raw "ai-master-package.b64")))
+3. Entpacke und starte:
+   index.html für Plattform
+   npm install + npx electron . für EXE-App
+
+=== BEGIN BASE64 ===
+(Base64-Inhalt hier einfügen)
+=== END BASE64 ===
